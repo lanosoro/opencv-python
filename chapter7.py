@@ -68,7 +68,7 @@ while True:
     # cv2.imshow("Mask", mask)
     # cv2.imshow("Result", imgResult)
 
-    imgStack = stackImages(0.6,([img,imgHSV],[mask,imgResult]))
+    imgStack = stackImages(0.4,([img,imgHSV],[mask,imgResult]))
     cv2.imshow("Stacked Images", imgStack)
 
-    cv2.waitKey(0)
+    cv2.waitKey(1) & 0xFF ==ord('q')
