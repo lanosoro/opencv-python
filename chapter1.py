@@ -21,6 +21,6 @@ while True:
 # cv2.imshow("image",imgGray)
 # cv2.imshow("blurred",imgBlur)
 # cv2.imshow("canny",imgCanny)
-# cv2.imshow("dialation",imgDilation)
-# cv2.imshow("eroded",imgEroded)
+cv2.imshow("dialation",imgDilation)
+cv2.imshow("eroded",imgEroded)
 cv2.waitKey(0) & 0xFF ==ord('q')
